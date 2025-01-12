@@ -1,0 +1,78 @@
+@import "tailwindcss";
+@import "@nuxt/ui-pro";
+
+@theme {
+  --font-sans: "Lato", "Raleway", sans-serif;
+  --font-serif: "Libre Baskerville", serif;
+
+  --color-primary: #7d55c7;
+  --color-secondary: #3db7e4;
+  --color-success: #7ab800;
+  --color-warning: #f3cf45;
+  --color-danger: #9e3039;
+  --color-focus: "#9093CE";
+}
+
+:root {
+  --ui-radius: var(--radius-lg);
+
+  --ui-color-primary-50: #efeaf8;
+  --ui-color-primary-100: #d8ccee;
+  --ui-color-primary-200: #c1aee4;
+  --ui-color-primary-300: #ab91db;
+  --ui-color-primary-400: #9473d1;
+  --ui-color-primary-500: #7d55c7;
+  --ui-color-primary-600: #6746a4;
+  --ui-color-primary-700: #513781;
+  --ui-color-primary-800: #3b285f;
+  --ui-color-primary-900: #261a3c;
+  /* --ui-color-primary-foreground: #fff; */
+
+  --ui-color-secondary-50: #e7f6fc;
+  --ui-color-secondary-100: #c5e9f7;
+  --ui-color-secondary-200: #a3ddf2;
+  --ui-color-secondary-300: #81d0ed;
+  --ui-color-secondary-400: #5fc4e9;
+  --ui-color-secondary-500: #3db7e4;
+  --ui-color-secondary-600: #3297bc;
+  --ui-color-secondary-700: #287794;
+  --ui-color-secondary-800: #1d576c;
+  --ui-color-secondary-900: #123744;
+  /* --ui-color-secondary-foreground: #000; */
+
+  --ui-color-success-50: #eef6df;
+  --ui-color-success-100: #d7eab3;
+  --ui-color-success-200: #c0dd86;
+  --ui-color-success-300: #a9d159;
+  --ui-color-success-400: #91c42d;
+  --ui-color-success-500: #7ab800;
+  --ui-color-success-600: #659800;
+  --ui-color-success-700: #4f7800;
+  --ui-color-success-800: #3a5700;
+  --ui-color-success-900: #253700;
+  /* --ui-color-success-foreground: #000; */
+
+  --ui-color-warning-50: #fef9e8;
+  --ui-color-warning-100: #fbf1c7;
+  --ui-color-warning-200: #f9e8a7;
+  --ui-color-warning-300: #f7e086;
+  --ui-color-warning-400: #f5d766;
+  --ui-color-warning-500: #f3cf45;
+  --ui-color-warning-600: #c8ab39;
+  --ui-color-warning-700: #9e872d;
+  --ui-color-warning-800: #736221;
+  --ui-color-warning-900: #493e15;
+  /* --ui-color-warning-foreground: #000; */
+
+  --ui-color-danger-50: #f3e5e6;
+  --ui-color-danger-100: #e2c1c4;
+  --ui-color-danger-200: #d19da1;
+  --ui-color-danger-300: #c0787e;
+  --ui-color-danger-400: #af545c;
+  --ui-color-danger-500: #9e3039;
+  --ui-color-danger-600: #82282f;
+  --ui-color-danger-700: #671f25;
+  --ui-color-danger-800: #4b171b;
+  --ui-color-danger-900: #2f0e11;
+  /* --ui-color-danger-foreground: #fff; */
+}
