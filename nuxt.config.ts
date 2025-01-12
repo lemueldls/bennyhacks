@@ -32,6 +32,16 @@ export default defineNuxtConfig({
   colorMode: {
     preference: "light",
   },
+  scripts: {
+    registry: { googleMaps: true },
+  },
+  runtimeConfig: {
+    public: {
+      scripts: {
+        googleMaps: { apiKey: "" },
+      },
+    },
+  },
   eslint: {
     config: {
       stylistic: {
