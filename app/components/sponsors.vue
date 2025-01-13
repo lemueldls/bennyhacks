@@ -11,7 +11,11 @@ const sponsors: Sponsor[] = [
 </script>
 
 <template>
-  <UPageSection title="Sponsors">
+  <UPageSection
+    id="sponsors"
+    icon="i-lucide-star"
+    title="Sponsors"
+  >
     <UPageGrid>
       <div
         v-for="{ title, imageUrl } of sponsors"

@@ -5,6 +5,7 @@ const colorScheme = computed(() => ({ system: "FOLLOW_SYSTEM", light: "LIGHT", d
 
 <template>
   <UPageSection
+    id="where"
     title="Where!?"
     description="Hosted at The City College of New York"
     icon="i-lucide-rocket"

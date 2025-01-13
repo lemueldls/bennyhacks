@@ -22,7 +22,7 @@
           color: 'neutral',
           variant: 'subtle',
           trailingIcon: 'i-lucide-chevrons-down',
-          to: '#when',
+          to: '/#when',
         },
       ]"
     >

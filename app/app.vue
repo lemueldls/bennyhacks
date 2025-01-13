@@ -10,7 +10,18 @@ useHead({
   htmlAttrs: { lang, dir },
 });
 
-const items = [];
+const items = [
+  // {
+  //   label: "FAQ",
+  //   icon: "i-lucide-message-circle-question",
+  //   to: "/#faq",
+  // },
+  {
+    label: "Sponsors",
+    icon: "i-lucide-star",
+    to: "/#sponsors",
+  },
+];
 </script>
 
 <template>

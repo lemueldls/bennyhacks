@@ -25,9 +25,11 @@ const questions = ref([
 
 <template>
   <UPageCard
+    id="faq"
+    icon="i-lucide-message-circle-question"
     title="FAQ"
     orientation="vertical"
-    :ui="{ title: 'text-2xl font-bold' }"
+    :ui="{ wrapper: 'flex gap-2 items-center', leading: 'mb-0', title: 'text-2xl font-bold' }"
   >
     <UPageAccordion :items="questions" />
   </UPageCard>

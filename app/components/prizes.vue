@@ -63,8 +63,10 @@ const prizeCategories: PrizeCatgegory[] = [categoryOne, categoryTwo];
 
 <template>
   <UPageCard
+    id="prizes"
+    icon="i-lucide:gem"
     title="Prizes"
-    :ui="{ title: 'text-2xl font-bold' }"
+    :ui="{ wrapper: 'flex gap-2 items-center', leading: 'mb-0', title: 'text-2xl font-bold' }"
   >
     <template
       v-for="({ headline, title, description, prizes }, i) of prizeCategories"
