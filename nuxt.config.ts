@@ -5,16 +5,22 @@ export default defineNuxtConfig({
   modules: [
     "@nuxthub/core",
     "@nuxt/ui-pro",
-    "@nuxt/content",
+    // "@nuxt/content",
     "@nuxt/eslint",
     "@nuxt/scripts",
     "@nuxt/image",
     "@nuxtjs/i18n",
+    // "@nuxtjs/seo",
     "@vueuse/nuxt",
   ],
   // Development
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
+  site: {
+    url: "https://bennyhacks.nuxt.dev",
+    name: "BennyHacks",
+    description: "Welcome to BennyHacks!",
+  },
   colorMode: {
     preference: "light",
   },
