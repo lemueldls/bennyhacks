@@ -26,9 +26,9 @@
         },
       ]"
     >
-      <UPageCard highlight class="w-full place-self-center aspect-video">
-        pretty thematic image
-      </UPageCard>
+      <USkeleton class="w-full place-self-center aspect-video">
+        [pretty thematic image]
+      </USkeleton>
     </UPageHero>
 
     <UPageBody>
