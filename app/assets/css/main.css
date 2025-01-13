@@ -1,6 +1,8 @@
 @import "tailwindcss";
 @import "@nuxt/ui-pro";
 
+@import "./patterns.css";
+
 @theme {
   --font-sans: "Lato", "Raleway", sans-serif;
   --font-serif: "Libre Baskerville", serif;

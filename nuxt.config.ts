@@ -1,12 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: "2024-07-30",
-  // Nuxt 4 directory structure and features
-  // https://nuxt.com/docs/getting-started/upgrade#testing-nuxt-4
-  future: { compatibilityVersion: 4 },
-  // Development
-  devtools: { enabled: true },
-  css: ["~/assets/css/main.css"],
   // Nuxt Modules
   // https://nuxt.com/modules
   modules: [
@@ -16,24 +9,14 @@ export default defineNuxtConfig({
     "@nuxt/eslint",
     "@nuxt/scripts",
     "@nuxt/image",
+    "@nuxtjs/i18n",
+    "@vueuse/nuxt",
   ],
-  hub: {
-    // database: true,
-    // kv: true,
-    // blob: true,
-    // cache: true,
-  },
-  nitro: {
-    experimental: {
-      // Enable Server API documentation within NuxtHub
-      openAPI: true,
-    },
-  },
+  // Development
+  devtools: { enabled: true },
+  css: ["~/assets/css/main.css"],
   colorMode: {
     preference: "light",
-  },
-  scripts: {
-    registry: { googleMaps: true },
   },
   runtimeConfig: {
     public: {
@@ -42,6 +25,22 @@ export default defineNuxtConfig({
       },
     },
   },
+  // Nuxt 4 directory structure and features
+  // https://nuxt.com/docs/getting-started/upgrade#testing-nuxt-4
+  future: { compatibilityVersion: 4 },
+  compatibilityDate: "2024-07-30",
+  nitro: {
+    experimental: {
+      // Enable Server API documentation within NuxtHub
+      openAPI: true,
+    },
+  },
+  hub: {
+    // database: true,
+    // kv: true,
+    // blob: true,
+    // cache: true,
+  },
   eslint: {
     config: {
       stylistic: {
@@ -49,5 +48,17 @@ export default defineNuxtConfig({
         semi: true,
       },
     },
+  },
+  i18n: {
+    defaultLocale: "en",
+    locales: [
+      {
+        code: "en",
+        name: "English",
+      },
+    ],
+  },
+  scripts: {
+    registry: { googleMaps: true },
   },
 });
