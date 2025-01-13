@@ -62,7 +62,10 @@ const prizeCategories: PrizeCatgegory[] = [categoryOne, categoryTwo];
 </script>
 
 <template>
-  <UPageCard title="Prizes" :ui="{ title: 'text-2xl font-bold' }">
+  <UPageCard
+    title="Prizes"
+    :ui="{ title: 'text-2xl font-bold' }"
+  >
     <template
       v-for="({ headline, title, description, prizes }, i) of prizeCategories"
       :key="i"
@@ -70,7 +73,8 @@ const prizeCategories: PrizeCatgegory[] = [categoryOne, categoryTwo];
       <USeparator />
 
       <UPageSection
-        :ui="{ container: 'lg:p-0', title: 'text-xl sm:text-2xl lg:text-3xl' }"
+        class="faded glamorous"
+        :ui="{ container: 'py-0 sm:py-0 md:py-0 lg:py-0', title: 'text-xl sm:text-2xl lg:text-3xl' }"
         :headline
         :title
         :description

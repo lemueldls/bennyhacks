@@ -5,7 +5,7 @@ interface Sponsor {
 }
 
 const sponsors: Sponsor[] = [
-  { title: "Nord VPN", imageUrl: "" },
+  { title: "NordVPN", imageUrl: "" },
   { title: "Raid Shadow Legends", imageUrl: "" },
 ];
 </script>
@@ -18,7 +18,11 @@ const sponsors: Sponsor[] = [
         :key="title"
         class="flex flex-col justify-center items-center gap-4"
       >
-        <NuxtImg :src="imageUrl" :alt="title" class="w-full" />
+        <NuxtImg
+          :src="imageUrl"
+          :alt="title"
+          class="w-full"
+        />
 
         <span class="text-xl">{{ title }}</span>
       </div>
